@@ -8591,7 +8591,7 @@ struct Atlas
 					XA_DEBUG_ASSERT(options.rotateCharts);
                     const float x = t.x;
                     t.x = t.y;
-                    t.y = chartImageToPackRotated->height() - 1.0f - x;
+                    t.y = chartImageToPackRotated->height() - x;
 				}
 				texcoord.x = best_x + t.x;
 				texcoord.y = best_y + t.y;
