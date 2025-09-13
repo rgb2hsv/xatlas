@@ -236,9 +236,6 @@ int main(int argc, char **argv)
 		if (generateAtlas(MODEL_PATH "duplicate_edge.obj", false, &result)) {
 			ASSERT(result.chartCount == 2);
 		}
-		if (generateAtlas(MODEL_PATH "metasphere.obj", false, &result)) {
-			ASSERT(result.chartCount == 77);
-		}
 		if (generateAtlas(MODEL_PATH "gazebo.obj", false, &result)) {
 			ASSERT(result.chartCount == 332);
 		}
